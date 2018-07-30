@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058B6B75210CC309003BE094 /* AppIcon40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B69210CC307003BE094 /* AppIcon40x40@3x.png */; };
+		058B6B76210CC309003BE094 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6A210CC308003BE094 /* AppIcon60x60@2x.png */; };
+		058B6B77210CC309003BE094 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6B210CC308003BE094 /* AppIcon29x29.png */; };
+		058B6B78210CC309003BE094 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6C210CC308003BE094 /* AppIcon60x60@3x.png */; };
+		058B6B79210CC309003BE094 /* AppIcon20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6D210CC308003BE094 /* AppIcon20x20@3x.png */; };
+		058B6B7A210CC309003BE094 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6E210CC308003BE094 /* AppIcon60x60.png */; };
+		058B6B7B210CC309003BE094 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B6F210CC308003BE094 /* AppIcon40x40@2x.png */; };
+		058B6B7C210CC309003BE094 /* AppIcon29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B70210CC308003BE094 /* AppIcon29x29@3x.png */; };
+		058B6B7D210CC309003BE094 /* AppIcon20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B71210CC309003BE094 /* AppIcon20x20@2x.png */; };
+		058B6B7E210CC309003BE094 /* AppIcon20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B72210CC309003BE094 /* AppIcon20x20.png */; };
+		058B6B7F210CC309003BE094 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B73210CC309003BE094 /* AppIcon29x29@2x.png */; };
+		058B6B80210CC309003BE094 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B6B74210CC309003BE094 /* AppIcon40x40.png */; };
+		058FD5F8210B52A400AE51CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD5F7210B52A400AE51CB /* AppDelegate.swift */; };
+		058FD5FD210B52A400AE51CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FD5FB210B52A400AE51CB /* Main.storyboard */; };
+		058FD5FF210B52A400AE51CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058FD5FE210B52A400AE51CB /* Assets.xcassets */; };
+		058FD602210B52A400AE51CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FD600210B52A400AE51CB /* LaunchScreen.storyboard */; };
+		058FD60D210B52A400AE51CB /* Kanamobi_GithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD60C210B52A400AE51CB /* Kanamobi_GithubTests.swift */; };
+		058FD618210B52A400AE51CB /* Kanamobi_GithubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD617210B52A400AE51CB /* Kanamobi_GithubUITests.swift */; };
+		058FD626210B5A7F00AE51CB /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD625210B5A7F00AE51CB /* ListaViewController.swift */; };
+		058FD629210B6A7200AE51CB /* Pull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD628210B6A7200AE51CB /* Pull.swift */; };
+		058FD62B210B6E9D00AE51CB /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FD62A210B6E9D00AE51CB /* Repositorio.swift */; };
+		05CDA6CA210BBB1D00DBCFB0 /* ListaPullController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CDA6C9210BBB1D00DBCFB0 /* ListaPullController.swift */; };
+		05ECA8C5210E428B0066E6DA /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ECA8C3210E428A0066E6DA /* logo@3x.png */; };
+		05ECA8C6210E428B0066E6DA /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ECA8C4210E428B0066E6DA /* logo@2x.png */; };
+		E5A75AEDE11AE672DE7FA9DE /* Pods_Kanamobi_Github.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83880B3ADCC5512D96F3810B /* Pods_Kanamobi_Github.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058FD609210B52A400AE51CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FD5EC210B52A400AE51CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FD5F3210B52A400AE51CB;
+			remoteInfo = "Kanamobi Github";
+		};
+		058FD614210B52A400AE51CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FD5EC210B52A400AE51CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FD5F3210B52A400AE51CB;
+			remoteInfo = "Kanamobi Github";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058B6B69210CC307003BE094 /* AppIcon40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@3x.png"; sourceTree = "<group>"; };
+		058B6B6A210CC308003BE094 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		058B6B6B210CC308003BE094 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		058B6B6C210CC308003BE094 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		058B6B6D210CC308003BE094 /* AppIcon20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon20x20@3x.png"; sourceTree = "<group>"; };
+		058B6B6E210CC308003BE094 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		058B6B6F210CC308003BE094 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		058B6B70210CC308003BE094 /* AppIcon29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@3x.png"; sourceTree = "<group>"; };
+		058B6B71210CC309003BE094 /* AppIcon20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon20x20@2x.png"; sourceTree = "<group>"; };
+		058B6B72210CC309003BE094 /* AppIcon20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon20x20.png; sourceTree = "<group>"; };
+		058B6B73210CC309003BE094 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		058B6B74210CC309003BE094 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		058FD5F4210B52A400AE51CB /* Kanamobi Github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanamobi Github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FD5F7210B52A400AE51CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058FD5FC210B52A400AE51CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058FD5FE210B52A400AE51CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058FD601210B52A400AE51CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058FD603210B52A400AE51CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FD608210B52A400AE51CB /* Kanamobi GithubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanamobi GithubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FD60C210B52A400AE51CB /* Kanamobi_GithubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanamobi_GithubTests.swift; sourceTree = "<group>"; };
+		058FD60E210B52A400AE51CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FD613210B52A400AE51CB /* Kanamobi GithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanamobi GithubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FD617210B52A400AE51CB /* Kanamobi_GithubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanamobi_GithubUITests.swift; sourceTree = "<group>"; };
+		058FD619210B52A400AE51CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FD625210B5A7F00AE51CB /* ListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
+		058FD628210B6A7200AE51CB /* Pull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pull.swift; sourceTree = "<group>"; };
+		058FD62A210B6E9D00AE51CB /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
+		05CDA6C9210BBB1D00DBCFB0 /* ListaPullController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPullController.swift; sourceTree = "<group>"; };
+		05ECA8C3210E428A0066E6DA /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		05ECA8C4210E428B0066E6DA /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		838630CA22B8FA0934FDEBB0 /* Pods-Kanamobi Github.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanamobi Github.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kanamobi Github/Pods-Kanamobi Github.debug.xcconfig"; sourceTree = "<group>"; };
+		83880B3ADCC5512D96F3810B /* Pods_Kanamobi_Github.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kanamobi_Github.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA4F63114E9403348F42AAA /* Pods-Kanamobi Github.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kanamobi Github.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kanamobi Github/Pods-Kanamobi Github.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058FD5F1210B52A400AE51CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A75AEDE11AE672DE7FA9DE /* Pods_Kanamobi_Github.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD605210B52A400AE51CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD610210B52A400AE51CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058B6B68210CC2F8003BE094 /* imagem */ = {
+			isa = PBXGroup;
+			children = (
+				05ECA8C4210E428B0066E6DA /* logo@2x.png */,
+				05ECA8C3210E428A0066E6DA /* logo@3x.png */,
+				058B6B72210CC309003BE094 /* AppIcon20x20.png */,
+				058B6B71210CC309003BE094 /* AppIcon20x20@2x.png */,
+				058B6B6D210CC308003BE094 /* AppIcon20x20@3x.png */,
+				058B6B6B210CC308003BE094 /* AppIcon29x29.png */,
+				058B6B73210CC309003BE094 /* AppIcon29x29@2x.png */,
+				058B6B70210CC308003BE094 /* AppIcon29x29@3x.png */,
+				058B6B74210CC309003BE094 /* AppIcon40x40.png */,
+				058B6B6F210CC308003BE094 /* AppIcon40x40@2x.png */,
+				058B6B69210CC307003BE094 /* AppIcon40x40@3x.png */,
+				058B6B6E210CC308003BE094 /* AppIcon60x60.png */,
+				058B6B6A210CC308003BE094 /* AppIcon60x60@2x.png */,
+				058B6B6C210CC308003BE094 /* AppIcon60x60@3x.png */,
+			);
+			path = imagem;
+			sourceTree = "<group>";
+		};
+		058FD5EB210B52A400AE51CB = {
+			isa = PBXGroup;
+			children = (
+				058FD5F6210B52A400AE51CB /* Kanamobi Github */,
+				058FD60B210B52A400AE51CB /* Kanamobi GithubTests */,
+				058FD616210B52A400AE51CB /* Kanamobi GithubUITests */,
+				058FD5F5210B52A400AE51CB /* Products */,
+				ABE5A50C564FE7C79EAD38C5 /* Pods */,
+				64B7FD1676E2F2F4F0C6ADCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		058FD5F5210B52A400AE51CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058FD5F4210B52A400AE51CB /* Kanamobi Github.app */,
+				058FD608210B52A400AE51CB /* Kanamobi GithubTests.xctest */,
+				058FD613210B52A400AE51CB /* Kanamobi GithubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058FD5F6210B52A400AE51CB /* Kanamobi Github */ = {
+			isa = PBXGroup;
+			children = (
+				058B6B68210CC2F8003BE094 /* imagem */,
+				058FD627210B6A3800AE51CB /* Modelos */,
+				058FD625210B5A7F00AE51CB /* ListaViewController.swift */,
+				05CDA6C9210BBB1D00DBCFB0 /* ListaPullController.swift */,
+				058FD5F7210B52A400AE51CB /* AppDelegate.swift */,
+				058FD5FB210B52A400AE51CB /* Main.storyboard */,
+				058FD5FE210B52A400AE51CB /* Assets.xcassets */,
+				058FD600210B52A400AE51CB /* LaunchScreen.storyboard */,
+				058FD603210B52A400AE51CB /* Info.plist */,
+			);
+			path = "Kanamobi Github";
+			sourceTree = "<group>";
+		};
+		058FD60B210B52A400AE51CB /* Kanamobi GithubTests */ = {
+			isa = PBXGroup;
+			children = (
+				058FD60C210B52A400AE51CB /* Kanamobi_GithubTests.swift */,
+				058FD60E210B52A400AE51CB /* Info.plist */,
+			);
+			path = "Kanamobi GithubTests";
+			sourceTree = "<group>";
+		};
+		058FD616210B52A400AE51CB /* Kanamobi GithubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				058FD617210B52A400AE51CB /* Kanamobi_GithubUITests.swift */,
+				058FD619210B52A400AE51CB /* Info.plist */,
+			);
+			path = "Kanamobi GithubUITests";
+			sourceTree = "<group>";
+		};
+		058FD627210B6A3800AE51CB /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				058FD628210B6A7200AE51CB /* Pull.swift */,
+				058FD62A210B6E9D00AE51CB /* Repositorio.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		64B7FD1676E2F2F4F0C6ADCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83880B3ADCC5512D96F3810B /* Pods_Kanamobi_Github.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE5A50C564FE7C79EAD38C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				838630CA22B8FA0934FDEBB0 /* Pods-Kanamobi Github.debug.xcconfig */,
+				DDA4F63114E9403348F42AAA /* Pods-Kanamobi Github.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058FD5F3210B52A400AE51CB /* Kanamobi Github */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FD61C210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi Github" */;
+			buildPhases = (
+				5BDD6783AA6E9AB168DD348A /* [CP] Check Pods Manifest.lock */,
+				058FD5F0210B52A400AE51CB /* Sources */,
+				058FD5F1210B52A400AE51CB /* Frameworks */,
+				058FD5F2210B52A400AE51CB /* Resources */,
+				E9A96CACA879026D45F85CBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanamobi Github";
+			productName = "Kanamobi Github";
+			productReference = 058FD5F4210B52A400AE51CB /* Kanamobi Github.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058FD607210B52A400AE51CB /* Kanamobi GithubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FD61F210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi GithubTests" */;
+			buildPhases = (
+				058FD604210B52A400AE51CB /* Sources */,
+				058FD605210B52A400AE51CB /* Frameworks */,
+				058FD606210B52A400AE51CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FD60A210B52A400AE51CB /* PBXTargetDependency */,
+			);
+			name = "Kanamobi GithubTests";
+			productName = "Kanamobi GithubTests";
+			productReference = 058FD608210B52A400AE51CB /* Kanamobi GithubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058FD612210B52A400AE51CB /* Kanamobi GithubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FD622210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi GithubUITests" */;
+			buildPhases = (
+				058FD60F210B52A400AE51CB /* Sources */,
+				058FD610210B52A400AE51CB /* Frameworks */,
+				058FD611210B52A400AE51CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FD615210B52A400AE51CB /* PBXTargetDependency */,
+			);
+			name = "Kanamobi GithubUITests";
+			productName = "Kanamobi GithubUITests";
+			productReference = 058FD613210B52A400AE51CB /* Kanamobi GithubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058FD5EC210B52A400AE51CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alessandro Bueno";
+				TargetAttributes = {
+					058FD5F3210B52A400AE51CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					058FD607210B52A400AE51CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FD5F3210B52A400AE51CB;
+					};
+					058FD612210B52A400AE51CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058FD5F3210B52A400AE51CB;
+					};
+				};
+			};
+			buildConfigurationList = 058FD5EF210B52A400AE51CB /* Build configuration list for PBXProject "Kanamobi Github" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058FD5EB210B52A400AE51CB;
+			productRefGroup = 058FD5F5210B52A400AE51CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058FD5F3210B52A400AE51CB /* Kanamobi Github */,
+				058FD607210B52A400AE51CB /* Kanamobi GithubTests */,
+				058FD612210B52A400AE51CB /* Kanamobi GithubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058FD5F2210B52A400AE51CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058B6B76210CC309003BE094 /* AppIcon60x60@2x.png in Resources */,
+				058FD602210B52A400AE51CB /* LaunchScreen.storyboard in Resources */,
+				058FD5FF210B52A400AE51CB /* Assets.xcassets in Resources */,
+				058FD5FD210B52A400AE51CB /* Main.storyboard in Resources */,
+				058B6B7A210CC309003BE094 /* AppIcon60x60.png in Resources */,
+				058B6B7E210CC309003BE094 /* AppIcon20x20.png in Resources */,
+				058B6B7C210CC309003BE094 /* AppIcon29x29@3x.png in Resources */,
+				05ECA8C6210E428B0066E6DA /* logo@2x.png in Resources */,
+				058B6B80210CC309003BE094 /* AppIcon40x40.png in Resources */,
+				058B6B75210CC309003BE094 /* AppIcon40x40@3x.png in Resources */,
+				058B6B7B210CC309003BE094 /* AppIcon40x40@2x.png in Resources */,
+				05ECA8C5210E428B0066E6DA /* logo@3x.png in Resources */,
+				058B6B78210CC309003BE094 /* AppIcon60x60@3x.png in Resources */,
+				058B6B7F210CC309003BE094 /* AppIcon29x29@2x.png in Resources */,
+				058B6B77210CC309003BE094 /* AppIcon29x29.png in Resources */,
+				058B6B7D210CC309003BE094 /* AppIcon20x20@2x.png in Resources */,
+				058B6B79210CC309003BE094 /* AppIcon20x20@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD606210B52A400AE51CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD611210B52A400AE51CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BDD6783AA6E9AB168DD348A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kanamobi Github-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A96CACA879026D45F85CBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kanamobi Github/Pods-Kanamobi Github-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Font-Awesome-Swift/Font_Awesome_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Font_Awesome_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kanamobi Github/Pods-Kanamobi Github-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058FD5F0210B52A400AE51CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FD626210B5A7F00AE51CB /* ListaViewController.swift in Sources */,
+				058FD5F8210B52A400AE51CB /* AppDelegate.swift in Sources */,
+				058FD629210B6A7200AE51CB /* Pull.swift in Sources */,
+				05CDA6CA210BBB1D00DBCFB0 /* ListaPullController.swift in Sources */,
+				058FD62B210B6E9D00AE51CB /* Repositorio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD604210B52A400AE51CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FD60D210B52A400AE51CB /* Kanamobi_GithubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FD60F210B52A400AE51CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FD618210B52A400AE51CB /* Kanamobi_GithubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058FD60A210B52A400AE51CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FD5F3210B52A400AE51CB /* Kanamobi Github */;
+			targetProxy = 058FD609210B52A400AE51CB /* PBXContainerItemProxy */;
+		};
+		058FD615210B52A400AE51CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FD5F3210B52A400AE51CB /* Kanamobi Github */;
+			targetProxy = 058FD614210B52A400AE51CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058FD5FB210B52A400AE51CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FD5FC210B52A400AE51CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058FD600210B52A400AE51CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FD601210B52A400AE51CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058FD61A210B52A400AE51CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		058FD61B210B52A400AE51CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058FD61D210B52A400AE51CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838630CA22B8FA0934FDEBB0 /* Pods-Kanamobi Github.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Kanamobi Github/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-Github";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		058FD61E210B52A400AE51CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA4F63114E9403348F42AAA /* Pods-Kanamobi Github.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Kanamobi Github/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-Github";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		058FD620210B52A400AE51CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanamobi GithubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-GithubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanamobi Github.app/Kanamobi Github";
+			};
+			name = Debug;
+		};
+		058FD621210B52A400AE51CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanamobi GithubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-GithubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanamobi Github.app/Kanamobi Github";
+			};
+			name = Release;
+		};
+		058FD623210B52A400AE51CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanamobi GithubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-GithubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanamobi Github";
+			};
+			name = Debug;
+		};
+		058FD624210B52A400AE51CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kanamobi GithubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alebueno.Kanamobi-GithubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanamobi Github";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058FD5EF210B52A400AE51CB /* Build configuration list for PBXProject "Kanamobi Github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FD61A210B52A400AE51CB /* Debug */,
+				058FD61B210B52A400AE51CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FD61C210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi Github" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FD61D210B52A400AE51CB /* Debug */,
+				058FD61E210B52A400AE51CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FD61F210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi GithubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FD620210B52A400AE51CB /* Debug */,
+				058FD621210B52A400AE51CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FD622210B52A400AE51CB /* Build configuration list for PBXNativeTarget "Kanamobi GithubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FD623210B52A400AE51CB /* Debug */,
+				058FD624210B52A400AE51CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058FD5EC210B52A400AE51CB /* Project object */;
+}

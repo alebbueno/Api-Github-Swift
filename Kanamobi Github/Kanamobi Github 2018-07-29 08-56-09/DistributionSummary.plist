@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kanamobi Github.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E023C7F8F21B462411F46B9E58B0AF5F0685B73D</string>
+				<key>dateExpires</key>
+				<string>24/07/2019</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E023C7F8F21B462411F46B9E58B0AF5F0685B73D</string>
+						<key>dateExpires</key>
+						<string>24/07/2019</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PRD4A4FE7A</string>
+						<key>name</key>
+						<string>Gulherme Mendes Fereira Falchi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E023C7F8F21B462411F46B9E58B0AF5F0685B73D</string>
+						<key>dateExpires</key>
+						<string>24/07/2019</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Font_Awesome_Swift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PRD4A4FE7A</string>
+						<key>name</key>
+						<string>Gulherme Mendes Fereira Falchi</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E023C7F8F21B462411F46B9E58B0AF5F0685B73D</string>
+						<key>dateExpires</key>
+						<string>24/07/2019</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>MBProgressHUD.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PRD4A4FE7A</string>
+						<key>name</key>
+						<string>Gulherme Mendes Fereira Falchi</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>PRD4A4FE7A.alebueno.Kanamobi-Github</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>PRD4A4FE7A</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>PRD4A4FE7A.alebueno.Kanamobi-Github</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Kanamobi Github.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b31180dd-eb80-4e3a-8f8e-35080db99914</string>
+				<key>name</key>
+				<string>HERA_ADHC</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>PRD4A4FE7A</string>
+				<key>name</key>
+				<string>Gulherme Mendes Fereira Falchi</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

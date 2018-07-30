@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>alebueno.Kanamobi-Github</key>
+		<string>HERA_ADHC</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>PRD4A4FE7A</string>
+	<key>thinning</key>
+	<string>&lt;thin-for-all-variants&gt;</string>
+</dict>
+</plist>
